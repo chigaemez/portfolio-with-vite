@@ -1,0 +1,7 @@
+export {default as logo} from './logo.jpg'
+export {default as HeroBG} from './HeroBG.jpg'
+export {default as dash} from './dash.png'
+export {default as optikkal} from './optikkal.png'
+export {default as shopping} from './shopping.png'
+export {default as Screenshot3} from './Screenshot3.png'
+export {default as Screenshot14} from './Screenshot14.png'
