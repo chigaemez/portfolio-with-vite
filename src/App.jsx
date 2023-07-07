@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Cursor from './components/Cursor'
 import AnimatedCursor from "react-animated-cursor"
 import Experience from './components/Experience/Experience'
+import Contact from './components/Contact/Contact'
 
 function App () {
 
@@ -22,6 +23,7 @@ function App () {
 					<Route path='/about' element={<About />} />
 					<Route path='/project' element={<Project />} />
 					<Route path='/experience' element={<Experience />} />
+					<Route path='/contact' element={<Contact />} />
 				</Routes>
 			</BrowserRouter>
 

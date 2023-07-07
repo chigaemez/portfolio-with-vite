@@ -15,7 +15,9 @@ const Header = () => {
 
 	return (
 		<div className='w-full flex items-center justify-between  fixed gap-4  bg-slate-800 py-2 px-20 max-sm:p-10 z-30'>
-			<img src={logo} alt='' className='w-20 rounded-3xl' />
+			<Link to='/'>
+				<img src={logo} alt='' className='w-20 hover:animate-spin rounded-full cursor-pointer' />
+			</Link>
 
 			{/* Responsive Toggle */}
 			<div className='lg:hidden block space-y-1 cursor-pointer' onClick={handleMenuClick}>
@@ -42,6 +44,11 @@ const Header = () => {
 						<Link to='/about'>
 							<li className='  transition-all flex items-center gap-2 cursor-pointer nav '>
 								MY STACK
+							</li>
+						</Link>
+						<Link to='/about'>
+							<li className='  transition-all flex items-center gap-2 cursor-pointer nav '>
+								MY BLOG
 							</li>
 						</Link>
 
@@ -73,6 +80,10 @@ const Header = () => {
 					<li className='  transition-all flex items-center gap-2 cursor-pointer nav '>MY STACK</li>
 				</Link>
 
+				<Link to='/about'>
+					<li className='  transition-all flex items-center gap-2 cursor-pointer nav '>MY BLOG</li>
+				</Link>
+
 				<Link to='/project' className=' group'>
 					<li className='  transition-all flex items-center gap-2 cursor-pointer nav'>MY WORKS</li>
 				</Link>
@@ -81,7 +92,7 @@ const Header = () => {
 						EXPERIENCE
 					</li>
 				</Link>
-				<Link to='' className=' group'>
+				<Link to='/contact' className=' group'>
 					<li className='  transition-all duration-500 px-6 py-2 rounded button cursor-pointer max-sm:hidden  hover:bg-transparent'>
 						REACH OUT
 					</li>

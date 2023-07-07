@@ -1,13 +1,14 @@
 import React from 'react'
 import Header from '../Header'
+import { Link } from 'react-router-dom'
 
 const About = () => {
 	return (
 		<div>
 			<Header />
-			<div className=' flex flex-col items-center justify-center w-full'>
+			<div className=' flex flex-col items-center justify-center w-full' >
 				<h2 className='text-3xl  font-bold text-center mt-32'>ABOUT ME</h2>
-				<hr className='w-10 bg-orange-600 h-2 rounded-full text-center mt-3 ' />
+				<hr className='w-16 bg-orange-600 h-2 rounded-full animate-bounce duration-500 text-center mt-3 ' />
 
 				<p className='text-xl w-7/12 font-semibold  mt-11  text-center text-slate-700'>
 					Here you will find more information about me, what I do, and my current skills mostly in
@@ -28,14 +29,16 @@ const About = () => {
 							conduct a survey of your competitors and make a list of their advantages and weakness.
 							all this is necessary to give your customer something your competitors do not provide.
 						</p>
-
-						<button className=' contact text-base mt-6  font-semibold text-slate-800  px-16 py-3 rounded-md'>
-							REACH OUT TO ME
-						</button>
+						<Link to='/contact'>
+							<button className=' contact text-base mt-6  font-semibold text-slate-800  px-16 py-3 rounded-md'>
+								REACH OUT TO ME
+							</button>
+							
+						</Link>
 					</div>
 
 					<div className='text-center mt-14 w-2/4 items-start justify-center'>
-                    <h2 className='text-3xl mb-8  font-bold'>My Skills</h2>
+						<h2 className='text-3xl mb-8  font-bold'>My Skills</h2>
 						<div className='flex flex-wrap gap-10'>
 							<p className='px-9 text-center items-center rounded-lg  font-medium text-slate-700 justify-center flex h-11 bg-slate-300'>
 								HTML
@@ -58,7 +61,6 @@ const About = () => {
 							<p className='px-9 text-center items-center rounded-lg  font-medium text-slate-700 justify-center flex h-11 bg-slate-300'>
 								GIT
 							</p>
-							
 						</div>
 					</div>
 				</div>
