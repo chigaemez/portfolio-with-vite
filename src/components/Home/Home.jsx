@@ -4,7 +4,6 @@ import { facebook, linkedin, twitter, github } from '../../assets/icons'
 import Header from '../Header'
 import Cursor from '../Cursor'
 import { Link } from 'react-router-dom'
-import Typed from 'react-typed'
 
 const Home = () => {
 	return (
@@ -21,13 +20,7 @@ const Home = () => {
 						HEY, I'M CHRISTOPHER, A{' '}
 					
 					</h2>
-					<Typed
-						className='text-6xl font-bold uppercase'
-						strings={['web design.', 'web development.', 'react developer.']}
-						typeSpeed={40}
-						backSpeed={60}
-						loop
-					/>
+					
 					<p className='w-2/4 text-xl '>
 						A Frontend focused Web Developer building the Frontend of Websites and Web Applications
 						that leads to the success of the overall product
