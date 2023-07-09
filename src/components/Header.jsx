@@ -46,11 +46,7 @@ const Header = () => {
 								MY STACK
 							</li>
 						</Link>
-						<Link to='/about'>
-							<li className='  transition-all flex items-center gap-2 cursor-pointer nav '>
-								MY BLOG
-							</li>
-						</Link>
+						
 
 						<Link to='/project' className=' group'>
 							<li className='  transition-all flex items-center gap-2 cursor-pointer nav'>
@@ -78,10 +74,6 @@ const Header = () => {
 
 				<Link to='/about'>
 					<li className='  transition-all flex items-center gap-2 cursor-pointer nav '>MY STACK</li>
-				</Link>
-
-				<Link to='/about'>
-					<li className='  transition-all flex items-center gap-2 cursor-pointer nav '>MY BLOG</li>
 				</Link>
 
 				<Link to='/project' className=' group'>

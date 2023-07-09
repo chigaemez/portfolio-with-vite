@@ -27,14 +27,7 @@ const Contact = () => {
 							placeholder='Please Provide Your Valid Email...'
 						/>
 					</div>
-					<div className='flex flex-col ml-[-150px] my-3'>
-						<label htmlFor=''>Phone</label>
-						<input
-							type='number'
-							className='w-[160%] h-10 rounded-md px-2 border-2 outline-none'
-							placeholder='Please Provide Your Phone Number...'
-						/>
-					</div>
+					
 					<div className='flex flex-col ml-[-150px] my-3'>
 						<label htmlFor=''>Write A Message </label>
 						<textarea
@@ -53,7 +46,7 @@ const Contact = () => {
 						</button>
 					</div>
 				</div>
-				<div className='p-6 bg-white w-20 h-[48vh] shadow-lg  rounded-br-full items-end '>
+				<div className='p-6 bg-white w-20 h-[37vh] shadow-lg  rounded-br-full items-end '>
 					<ul>
 						<li className='mt-3 cursor-pointer '>
 							<a href='https://web.facebook.com/kulture.darlington/about_overview'>
