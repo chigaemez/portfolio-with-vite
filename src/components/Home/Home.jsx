@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeroBG } from '../../assets/image'
+import { HeroBG } from '../../assets/image/Index'
 import { facebook, linkedin, twitter, github } from '../../assets/icons'
 import Header from '../Header'
 import Cursor from '../Cursor'
