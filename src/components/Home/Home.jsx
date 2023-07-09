@@ -1,6 +1,6 @@
 import React from 'react'
 import { HeroBG } from '../../assets/image'
-import { facebook, linkedin, email, twitter, github } from '../../assets/icons'
+import { facebook, linkedin, twitter, github } from '../../assets/icons'
 import Header from '../Header'
 import Cursor from '../Cursor'
 import { Link } from 'react-router-dom'
