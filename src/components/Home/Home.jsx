@@ -1,9 +1,10 @@
 import React from 'react'
-import { HeroBG } from '../../assets/image/Index'
+// import { HeroBG } from '../../assets/image'
 import { facebook, linkedin, twitter, github } from '../../assets/icons'
 import Header from '../Header'
 import Cursor from '../Cursor'
 import { Link } from 'react-router-dom'
+import Typed from 'react-typed'
 
 const Home = () => {
 	return (
@@ -12,15 +13,21 @@ const Home = () => {
 			<Cursor />
 			<div></div>
 			<div
-				className='h-screen  bg-cover -z-10 space-y-4 bg-center  bg-no-repeat  flex flex-col justify-center'
-				style={{ backgroundImage: `url(${HeroBG})` }}
+				className='h-screen  bg-cover -z-10 space-y-4 bg-center bg-slate-900  bg-no-repeat  flex flex-col justify-center'
+				// style={{ backgroundImage: `url(${HeroBG})` }}
 			>
 				<div className='space-y-3 text-center  -mb-[370px] text-white flex flex-col items-center'>
 					<h2 className='text-6xl font-bold ' data-aos='flip-left'>
 						HEY, I'M CHRISTOPHER, A{' '}
 					
 					</h2>
-					
+					<Typed
+						className='text-6xl font-bold uppercase'
+						strings={['web design.', 'web development.', 'react developer.']}
+						typeSpeed={40}
+						backSpeed={60}
+						loop
+					/>
 					<p className='w-2/4 text-xl '>
 						A Frontend focused Web Developer building the Frontend of Websites and Web Applications
 						that leads to the success of the overall product
