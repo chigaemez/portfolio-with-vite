@@ -14,8 +14,7 @@ const Home = () => {
 			<div></div>
 			<div
 				className='h-screen  bg-cover -z-10 space-y-4 bg-center bg-slate-900  bg-no-repeat  flex flex-col justify-center'
-				style={{ backgroundImage: `url(${HeroBG})` }}
-			>
+				style={{ backgroundImage: `url(${HeroBG})` }}>
 				<div className='space-y-3 text-center  -mb-[370px] text-white flex flex-col items-center'>
 					<h2 className='text-6xl font-bold ' data-aos='flip-left'>
 						HEY, I'M CHRISTOPHER{' '}
