@@ -1,7 +1,7 @@
 import React from 'react'
-
+import Cursor from '../Cursor'
 import Header from '../Header'
-import { Screenshot14, Screenshot3, background, dash, optikkal, portfolio, shopping } from '../../assets/image/Index'
+import { Screenshot14, Screenshot3, background, dash, optikkal, portfolio, shopping } from '../../assets/image'
 
 const Project = () => {
 	return (
@@ -9,6 +9,7 @@ const Project = () => {
 			className='  bg-cover -z-10  bg-center  bg-no-repeat'
 			style={{ backgroundImage: `url(${background})`  }}
 		>
+			<Cursor/>
 			<Header />
 			<div className='flex flex-col text-center items-center justify-center '>
 				<h2 className='text-4xl  text-slate-600 font-bold text-center mt-32'>My Projects</h2>
@@ -28,7 +29,7 @@ const Project = () => {
 							alt=''
 						/>
 
-						<div className='absolute inset-0 flex translate-y-[280px] h-3/6 opacity-0 items-center justify-center flex-col group-hover:opacity-90 duration-500 group-hover:translate-y-[157px] bg-slate-800 rounded-b-3xl '>
+						<div className='absolute inset-0 flex translate-y-[290px] h-3/6 opacity-0 items-center justify-center flex-col group-hover:opacity-90 duration-500 group-hover:translate-y-[177px] bg-slate-800 rounded-b-3xl '>
 							<h1 className=' text-3xl font-bold text-white text-left'>Optikkal Tech</h1>
 							<p className='mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
 								React.js Postcss Tailwind css aos node.js vite
@@ -42,7 +43,7 @@ const Project = () => {
 							alt=''
 						/>
 
-						<div className='absolute inset-0 flex translate-y-[280px] h-3/6 opacity-0 items-center justify-center flex-col group-hover:opacity-90 duration-500 group-hover:translate-y-[157px] bg-slate-800 rounded-b-3xl '>
+						<div className='absolute inset-0 flex translate-y-[280px] h-3/6 opacity-0 items-center justify-center flex-col group-hover:opacity-90 duration-500 group-hover:translate-y-[177px] bg-slate-800 rounded-b-3xl '>
 							<h1 className=' text-3xl font-bold text-white text-left'>Admin dashboard</h1>
 							<p className='mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
 								React.js Postcss Tailwind css synfusion
@@ -59,7 +60,7 @@ const Project = () => {
 							alt=''
 						/>
 
-						<div className='absolute inset-0 flex translate-y-[280px] h-3/6 opacity-0 items-center justify-center flex-col group-hover:opacity-90 duration-500 group-hover:translate-y-[160px] bg-slate-800 rounded-b-3xl '>
+						<div className='absolute inset-0 flex translate-y-[280px] h-3/6 opacity-0 items-center justify-center flex-col group-hover:opacity-90 duration-500 group-hover:translate-y-[177px] bg-slate-800 rounded-b-3xl '>
 							<h1 className=' text-3xl font-bold text-white text-left'>Shopping cart</h1>
 							<p className='mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
 								React.js Postcss Tailwind css Axios
@@ -73,7 +74,7 @@ const Project = () => {
 							alt=''
 						/>
 
-						<div className='absolute inset-0 flex translate-y-[280px] h-3/6 opacity-0 items-center justify-center flex-col group-hover:opacity-90 duration-500 group-hover:translate-y-[160px] bg-slate-800 rounded-b-3xl '>
+						<div className='absolute inset-0 flex translate-y-[280px] h-3/6 opacity-0 items-center justify-center flex-col group-hover:opacity-90 duration-500 group-hover:translate-y-[177px] bg-slate-800 rounded-b-3xl '>
 							<h1 className=' text-3xl font-bold text-white text-left'>Movie list</h1>
 							<p className='mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
 								React.js Postcss Tailwind css Axios
@@ -90,7 +91,7 @@ const Project = () => {
 							alt=''
 						/>
 
-						<div className='absolute inset-0 flex translate-y-[280px] h-3/6 opacity-0 items-center justify-center flex-col group-hover:opacity-90 duration-500 group-hover:translate-y-[180px] bg-slate-800 rounded-b-3xl '>
+						<div className='absolute inset-0 flex translate-y-[280px] h-3/6 opacity-0 items-center justify-center flex-col group-hover:opacity-90 duration-500 group-hover:translate-y-[200px] bg-slate-800 rounded-b-3xl '>
 							<h1 className=' text-3xl font-bold text-white text-left'>Sneaker Store</h1>
 							<p className='mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
 								React.js Postcss Tailwind css

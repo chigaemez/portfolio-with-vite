@@ -7,12 +7,12 @@ const Cursor = () => {
     
       <AnimatedCursor
       
-      innerSize={8}
-      outerSize={8}
-      color='193, 11, 111'
+      innerSize={40}
+      outerSize={40}
+      color='122, 131, 211'
       outerAlpha={0.2}
-      innerScale={0.7}
-      outerScale={5}
+      innerScale={0.9}
+      outerScale={3}
       clickables={[
         'a',
         'input[type="text"]',

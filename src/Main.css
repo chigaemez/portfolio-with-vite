@@ -99,3 +99,9 @@
     margin: 0;
   }
 }
+
+@layer utilities{
+  @keyframes bg-animate {
+    
+  }
+}

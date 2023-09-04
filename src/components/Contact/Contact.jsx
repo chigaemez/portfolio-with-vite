@@ -1,16 +1,18 @@
 import React from 'react'
 import Header from '../Header'
 import { useState } from 'react'
+import Cursor from '../Cursor'
 import { facebook, github, linkedin, twitter } from '../../assets/icons'
 
 const Contact = () => {
-	const [Loading, setIsLoading] = useState(false)
+
 
 	return (
 		<div className='bg-primary5 h-screen'>
+			<Cursor/>
 			<Header />
-			<div className='flex justify-center items-center'>
-				<div className=' w-[40%]   px-6 py-6 mt-36 flex flex-col rounded-xl justify-center items-center  bg-white  shadow-2xl'>
+			<div className='h-screen  flex flex-row items-center justify-center'>
+				<div className=' w-[40%]   px-6 py-6 mt-[80px] flex flex-col rounded-xl justify-center items-center  bg-white  shadow-2xl'>
 					<div className='flex flex-col ml-[-150px] my-3'>
 						<label htmlFor=''>Full Name</label>
 						<input
@@ -39,14 +41,16 @@ const Contact = () => {
 						></textarea>
 					</div>
 
-					<div className='flex flex-col ml-[-10px] justify-center items-center my-3'>
-						<button className=' w-[320%] h-10  rounded-md cursor-pointer text-primary5 bg-slate-800 border-none border-2 outline-none'>
-							<div className='animate-spin rounded-full h-4 w-4 border-b-2 border-white'></div>
-							Send Message
+					<div className='flex flex-col ml-[-10px] justify-center items-center my-3' >
+						<button className=' w-[320%] h-14  rounded-md cursor-pointer text-primary5 bg-slate-800 border-none border-2 outline-none' >
+						
+							
+							 Send Message
+								
 						</button>
 					</div>
 				</div>
-				<div className='p-6 bg-white w-20 h-[37vh] shadow-lg  rounded-br-full items-end '>
+				<div className='p-6 bg-white w-20 h-[43vh] shadow-lg mt-[-30px]  rounded-br-full items-end '>
 					<ul>
 						<li className='mt-3 cursor-pointer '>
 							<a href='https://web.facebook.com/kulture.darlington/about_overview'>
@@ -57,6 +61,8 @@ const Contact = () => {
 							<a href='https://twitter.com/Czarchr60510123'>
 								<img src={twitter} alt='' className='w-8 cursor-pointer' />
 							</a>
+
+							
 						</li>
 						<li className='mt-10 cursor-pointer'>
 							<a href='https://github.com/chigaemez'>

@@ -1,12 +1,14 @@
 import React from 'react'
 import Header from '../Header'
 import { Link } from 'react-router-dom'
+import Cursor from '../Cursor'
 
 const About = () => {
 	return (
 		<div>
 			<Header />
-			<div className=' flex flex-col items-center justify-center w-full' >
+			<Cursor/>
+			<div className=' flex flex-col items-center justify-center mb-10 px-10 animate-[] w-full' >
 				<h2 className='text-3xl  font-bold text-center mt-32'>ABOUT ME</h2>
 				<hr className='w-16 bg-orange-600 h-2 rounded-full animate-bounce duration-500 text-center mt-3 ' />
 
@@ -37,32 +39,15 @@ const About = () => {
 						</Link>
 					</div>
 
-					<div className='text-center mt-14 w-2/4 items-start justify-center'>
-						<h2 className='text-3xl mb-8  font-bold'>My Skills</h2>
-						<div className='flex flex-wrap gap-10'>
-							<p className='px-9 text-center items-center rounded-lg  font-medium text-slate-700 justify-center flex h-11 bg-slate-300'>
-								HTML
-							</p>
-							<p className='px-9 text-center items-center rounded-lg  font-medium text-slate-700 justify-center flex h-11 bg-slate-300'>
-								CSS
-							</p>
-							<p className='px-11 text-center items-center rounded-lg  font-medium text-slate-700 justify-center flex h-11 bg-slate-300'>
-								JAVASCRPT
-							</p>
-							<p className='px-9 text-center items-center rounded-lg  font-medium text-slate-700 justify-center flex h-11 bg-slate-300'>
-								REACTJS
-							</p>
-							<p className='px-9 text-center items-center rounded-lg  font-medium text-slate-700 justify-center flex h-11 bg-slate-300'>
-								TAILWIND CSS
-							</p>
-							<p className='px-9 text-center items-center rounded-lg  font-medium text-slate-700 justify-center flex h-11 bg-slate-300'>
-								BOOTSTRAP
-							</p>
-							<p className='px-9 text-center items-center rounded-lg  font-medium text-slate-700 justify-center flex h-11 bg-slate-300'>
-								GIT
-							</p>
-						</div>
-					</div>
+				<div className="flex flex-wrap gap-6">
+					<p className='px-11 py-3 rounded-md text-primary5 bg-slate-600'>HTML</p>
+					<p className='px-11 py-3 rounded-md text-primary5 bg-slate-600'>CSS</p>
+					<p className='px-11 py-3 rounded-md text-primary5 bg-slate-600'>JAVASCRIPT</p>
+					<p className='px-11 py-3 rounded-md text-primary5 bg-slate-600'>REACTJS</p>
+					<p className='px-11 py-3 rounded-md text-primary5 bg-slate-600'>TAILWIND</p>
+					<p className='px-11 py-3 rounded-md text-primary5 bg-slate-600'>REDUX</p>
+					<p className='px-11 py-3 rounded-md text-primary5 bg-slate-600'>BOOTSTRAP</p>
+				</div>
 				</div>
 			</div>
 		</div>

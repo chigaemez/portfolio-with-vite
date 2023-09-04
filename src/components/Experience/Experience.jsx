@@ -1,10 +1,12 @@
 import React from 'react'
 import Header from '../Header'
+import Cursor from '../Cursor'
 
 const Experience = () => {
 	return (
 		<div className=''>
 			<Header />
+			<Cursor/>
 			<div className='flex justify-center    flex-col items-center'>
 				<div className=' w-[50%]   px-6 py-6 mt-36  shadow-xl shadow-slate-300'>
 					<h1 className='text-3xl text-center font-semibold text-slate-600'>OPTIKKAL TECH</h1>

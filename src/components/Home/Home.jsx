@@ -1,5 +1,5 @@
 import React from 'react'
-// import { HeroBG } from '../../assets/image'
+import { HeroBG } from '../../assets/image'
 import { facebook, linkedin, twitter, github } from '../../assets/icons'
 import Header from '../Header'
 import Cursor from '../Cursor'
@@ -14,16 +14,16 @@ const Home = () => {
 			<div></div>
 			<div
 				className='h-screen  bg-cover -z-10 space-y-4 bg-center bg-slate-900  bg-no-repeat  flex flex-col justify-center'
-				// style={{ backgroundImage: `url(${HeroBG})` }}
+				style={{ backgroundImage: `url(${HeroBG})` }}
 			>
 				<div className='space-y-3 text-center  -mb-[370px] text-white flex flex-col items-center'>
 					<h2 className='text-6xl font-bold ' data-aos='flip-left'>
-						HEY, I'M CHRISTOPHER, A{' '}
+						HEY, I'M CHRISTOPHER{' '}
 					
 					</h2>
 					<Typed
 						className='text-6xl font-bold uppercase'
-						strings={['web design.', 'web development.', 'react developer.']}
+						strings={['web design.', 'web developer.', 'react developer.']}
 						typeSpeed={40}
 						backSpeed={60}
 						loop
@@ -34,7 +34,7 @@ const Home = () => {
 					</p>
 				
 					<Link to={'/project'}>
-						<button className='project z-20 animate-pulse mt-10 text-lg font-semibold   px-16 py-3 rounded-md'>
+						<button className='project z-20 animate-pulse mt-16 text-lg font-semibold   px-16 py-3 rounded-md'>
 							MY WORKS
 						</button>
 					</Link>
@@ -58,7 +58,7 @@ const Home = () => {
 							</a>
 						</li>
 						<li className='mt-8 cursor-pointer'>
-							<a href='https://www.linkedin.com/in/orji-christopher-9b71a2246?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BA2BZCw%2FqTu2%2FUPH6UXtDbw%3D%3D'>
+							<a href='https://www.linkedin.com/in/orji-christopher'>
 								<img src={linkedin} alt='' className='w-8 cursor-pointer' />
 							</a>
 						</li>
