@@ -11,7 +11,6 @@ const Home = () => {
 		<div>
 			<Header />
 			<Cursor />
-			<div></div>
 			<div
 				className='h-screen  bg-cover -z-10 space-y-4 bg-center bg-slate-900  bg-no-repeat  flex flex-col justify-center'
 				style={{ backgroundImage: `url(${HeroBG})` }}>
