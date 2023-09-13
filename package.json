@@ -20,6 +20,7 @@
     "react-icons": "^4.7.1",
     "react-particles": "^2.10.1",
     "react-router-dom": "^6.11.1",
+    "react-scroll": "^1.8.9",
     "react-swipe": "^6.0.4",
     "react-typed": "^1.2.0",
     "swipe-js-iso": "^2.1.5"

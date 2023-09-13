@@ -1,33 +1,31 @@
-import { useState } from 'react'
-import About from './components/About/About'
-import Home from './components/Home/Home'
-import Project from './components/Projects/Project'
 import './Main.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Cursor from './components/Cursor'
-import AnimatedCursor from "react-animated-cursor"
-import Experience from './components/Experience/Experience'
-import Contact from './components/Contact/Contact'
+import Page from './Page'
+import { useEffect } from 'react'
+
+const AOSInit = ({ children }) => {
+	useEffect(() => {
+		AOS.init({
+			duration: 1200,
+			easing: 'ease-in-out-quart',
+		})
+	}, [])
+
+	return <>{children}</>
+}
 
 function App () {
-
-
-
 	return (
-		< >
-	 
-     
+		<>
 			<BrowserRouter>
-				<Routes>
-					<Route path='/' element={<Home />} />
-					<Route path='/about' element={<About />} />
-					<Route path='/project' element={<Project />} />
-					<Route path='/experience' element={<Experience />} />
-					<Route path='/contact' element={<Contact />} />
-				</Routes>
+				<AOSInit>
+					<Routes>
+						<Route path='/' element={<Page />} />
+					</Routes>
+				</AOSInit>
 			</BrowserRouter>
-
-     
 		</>
 	)
 }
