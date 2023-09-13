@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { mine } from '../../assets/image'
+import { mine } from '../../assets/image/Index'
 
 const About = () => {
 	return (
