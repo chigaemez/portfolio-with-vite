@@ -8,7 +8,7 @@ import {
 	FaMarsDouble,
 	FaUser,
 } from 'react-icons/fa'
-import { logo } from '../assets/image'
+import { logo } from '../assets/image/Index'
 import { Link } from 'react-scroll'
 import { BiMessageAlt } from 'react-icons/bi'
 
