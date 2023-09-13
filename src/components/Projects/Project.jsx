@@ -9,7 +9,7 @@ import {
 	optikkal,
 	portfolio,
 	shopping,
-} from '../../assets/image'
+} from '../../assets/image/Index'
 
 const Project = () => {
 	return (
