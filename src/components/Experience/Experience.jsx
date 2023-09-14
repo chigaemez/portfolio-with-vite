@@ -42,7 +42,7 @@ const Experience = () => {
 							<FaBriefcase className='text-white text-xl' />
 						</div>
 
-						<hr className='h-[90vh] lg:h-[40vh] w-1 bg-black flex' />
+						<hr className='h-[60vh] lg:h-[40vh] w-1 bg-black flex' />
 					</div>
 
 					<div className='flex flex-col ml-6 lg:ml-14 ' data-aos='fade-up'>
@@ -90,7 +90,7 @@ const Experience = () => {
 						<div className='w-12  h-12 -mr-[24px] z-50  bg-orange-500 rounded-full flex justify-center items-center  '>
 							<FaBriefcase className='text-white text-xl' />
 						</div>
-						<hr className='h-[80vh] lg:h-[35vh] w-1 bg-black flex' />
+						<hr className='h-[60vh] lg:h-[40vh] w-1 bg-black flex' />
 					</div>
 					<div className='flex-col ml-6 lg:ml-14 '>
 						<div className='flex flex-col ml-6 ' data-aos='fade-up'>
