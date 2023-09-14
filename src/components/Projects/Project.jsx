@@ -23,7 +23,7 @@ const Project = () => {
 				<div className='  flex flex-wrap gap-14    items-center justify-center '>
 				<div
 						className='group  relative sm:w-[50%] md:w-[50%] lg:w-[30%]  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500'
-						data-aos='fade-left'
+						data-aos='fade-up'
 					>
 						<img
 							className='h-full wfull rounded-lg object-cover  duration-500 '
@@ -46,7 +46,7 @@ const Project = () => {
 					</div>
 					<div
 						className='group  relative sm:w-[50%] md:w-[50%] lg:w-[30%]  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500'
-						data-aos='fade-left'
+						data-aos='fade-up'
 					>
 						<img
 							className='h-full wfull rounded-lg object-cover  duration-500 '
@@ -73,7 +73,7 @@ const Project = () => {
 
 				<div className='flex flex-wrap gap-10  items-center justify-center'>
 					<div
-						data-aos='fade-right'
+						data-aos='fade-up	'
 						className='group relative sm:w-[50%] md:w-[50%] lg:w-[30%]   cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500'
 					>
 						<img
@@ -98,7 +98,7 @@ const Project = () => {
 						</div>
 					</div>
 					<div
-						data-aos='fade-left'
+						data-aos='fade-up'
 						className='group relative sm:w-[50%] md:w-[50%] lg:w-[30%]  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500 '
 					>
 						<img
@@ -124,7 +124,7 @@ const Project = () => {
 					</div>
 				</div>
 
-				<div data-aos='fade-right' className='flex flex-wrap gap-14  items-center justify-center'>
+				<div data-aos='fade-up	' className='flex flex-wrap gap-14  items-center justify-center'>
 					<div className='group relative sm:w-[50%] md:w-[50%] lg:w-[30%]  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500'>
 						<img
 							className='h-full wfull rounded-lg object-cover  duration-500 '
@@ -148,7 +148,7 @@ const Project = () => {
 						</div>
 					</div>
 					<div
-						data-aos='fade-left'
+						data-aos='fade-up'
 						className='group relative sm:w-[50%] md:w-[50%] lg:w-[30%]  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500 '
 					>
 						<img
