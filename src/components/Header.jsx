@@ -14,6 +14,7 @@ import { BiMessageAlt } from 'react-icons/bi'
 
 const Header = () => {
 	const [toggleMenu, setToggleMenu] = useState(false)
+	const [menuBar, setMenuBar] = useState(false)
 
 	const handleMenuClick = () => {
 		setToggleMenu(!toggleMenu)
@@ -48,7 +49,7 @@ const Header = () => {
 				></div>
 			</div>
 
-			{toggleMenu && (
+			{toggleMenu &&  (
 				<div
 					className='lg:hidden w-full duration-1000 transition-all bg-[#151717] h-[120vh] absolute top-[0] right-0  bg-opacity-90 backdrop-filter backdrop-blur-sm z-30  py-20 px-10'
 					data-aos='fade-up'

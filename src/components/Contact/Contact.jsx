@@ -1,9 +1,38 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { BiMessageAlt } from 'react-icons/bi'
 import { FaLocationArrow, FaPhone } from 'react-icons/fa'
 import { facebook, github, linkedin, twitter } from '../../assets/icons'
+import { useFormik } from 'formik'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
+	const formik = useFormik({
+		initialValues: {
+			email: '',
+			firstName: '',
+			lastName: '',
+			subject: '',
+			message: '',
+		},
+	})
+
+	const form = useRef()
+
+	const sendEmail = e => {
+		e.preventDefault()
+
+		emailjs.sendForm('service_ke8upxg', 'template_j9g1gr8', form.current, 'ZVZRtwn2_a4zmp0yX').then(
+			result => {
+				console.log(result.text)
+			},
+			error => {
+				console.log(error.text)
+			}
+		)
+
+		e.target.reset()
+	}
+
 	return (
 		<div className='bg-orange-500  py-10 ' id='contact'>
 			<div className='flex flex-col  text-center items-center justify-center '>
@@ -12,58 +41,77 @@ const Contact = () => {
 			</div>
 			<div className='flex flex-col md:flex-row justify-center gap-11 items-center w-[100%]'>
 				<div className=' px-3   py-6 lg:w-[30%] md:w-[100%]   flex flex-col rounded-xl justify-center items-center '>
-					<div className='flex flex-col md:flex-row w-full md:justify-center gap-16  mt-7'>
-						<div className='flex flex-col'>
-							<label htmlFor='' className='text-lg'>First Name</label>
-							<input type='text' className='w-full text-lg  font-semibold  rounded-md border h-11 px-4 outline-none' />
+					<form ref={form} onSubmit={sendEmail}>
+						<div className='flex flex-col md:flex-row w-full md:justify-center gap-16  mt-7'>
+							<div className='flex flex-col'>
+								<label htmlFor='' className='text-lg'>
+									First Name
+								</label>
+								<input
+									type='text'
+									className='w-full text-lg  font-semibold  rounded-md border h-11 px-4 outline-none'
+									name='user_name'
+									required
+								/>
+							</div>
+
+							<div className='flex flex-col'>
+								<label htmlFor='' className='text-lg'>
+									Last Name
+								</label>
+								<input
+									type='text'
+									className='flex  text-lg w-full font-semibold  rounded-md border h-11 px-4 outline-none'
+									name='user_name'
+									required
+								/>
+							</div>
 						</div>
 
-						<div className='flex flex-col'>
-							<label htmlFor='' className='text-lg'>Last Name</label>
-							<input
-								type='text'
-								className='flex  text-lg w-full font-semibold  rounded-md border h-11 px-4 outline-none'
-							/>
+						<div className='w-full mt-4'>
+							<div className='flex flex-wrap gap-4'>
+								<label htmlFor='' className='text-lg'>
+									Email
+								</label>
+								<input
+									
+									type='email'
+									name='user_email'
+									className='w-full  text-lg   rounded-md border h-11 px-4 outline-none font-medium'
+									required
+								/>
+								<label htmlFor='' className='text-lg'>
+									Subject
+								</label>
+								<input
+									type='text'
+									className='w-full  text-lg   rounded-md border h-11 px-4 outline-none font-medium'
+									required
+									name='subject'
+								/>
+							</div>
 						</div>
-					</div>
 
-					<div className='w-full mt-4'>
-						<div className='flex flex-wrap gap-4'>
-							<label htmlFor="" className='text-lg'>Email</label>
-							<input
-								type='text'
-								name='email'
-								className='w-full  text-lg   rounded-md border h-11 px-4 outline-none font-medium'
+						<div className='flex flex-col w-[100%] my-3'>
+							<label htmlFor='' className='text-lg'>
+								Write A Message{' '}
+							</label>
+							<textarea
+								name='message'
+								id=''
+								className='w-[100%] text-lg  font-semibold rounded-md resize-none px-2 border-2 outline-none'
+								placeholder='Write Short Message...'
+								rows='4'
 								required
-							/>
-							<label htmlFor="" className='text-lg'>Subject</label>
-							<input
-								type='text'
-								className='w-full  text-lg   rounded-md border h-11 px-4 outline-none font-medium'
-							
-								required
-								
-							/>
-					
+							></textarea>
 						</div>
-					</div>
 
-					<div className='flex flex-col w-[100%] my-3'>
-						<label htmlFor='' className='text-lg'>Write A Message </label>
-						<textarea
-							name=''
-							id=''
-							className='w-[100%] text-lg  font-semibold rounded-md resize-none px-2 border-2 outline-none'
-							placeholder='Write Short Message...'
-							rows='4'
-						></textarea>
-					</div>
-
-					<div className='flex w-full flex-col  justify-center items-center my-3'>
-						<button className=' w-full font-semibold  h-12  rounded-md cursor-pointer text-slate-600 bg-white border-none border-2 outline-none'>
-							Send Message
-						</button>
-					</div>
+						<div className='flex w-full flex-col  justify-center items-center my-3'>
+							<button className=' w-full font-semibold  h-12  rounded-md cursor-pointer text-slate-600 bg-white border-none border-2 outline-none'>
+								Send Message
+							</button>
+						</div>
+					</form>
 				</div>
 
 				<div className='flex flex-col  w-[90%] lg:w-[30%]  '>

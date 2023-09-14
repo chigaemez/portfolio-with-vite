@@ -14,11 +14,16 @@ import {
 	FaGithub,
 	FaFigma,
 	FaNpm,
+	FaSlack,
+	FaCode,
 } from 'react-icons/fa'
 
 const Experience = () => {
 	return (
-		<div className='mt-20 bg-slate-100 py-4 justify-center items-center flex flex-col  ' id='resume'>
+		<div
+			className='mt-20 bg-slate-100 py-4 justify-center items-center flex flex-col  '
+			id='resume'
+		>
 			<div className='flex flex-col text-left lg:text-center mt-7'>
 				<h1 className='mx-4 text-4xl text-slate-600  font-semibold '>Resume</h1>
 				<h1 className='mx-4 text-lg text-slate-600 font-medium my-4'>
@@ -78,14 +83,14 @@ const Experience = () => {
 
 				<div className='flex px-4 mt-9 justify-center w-[]'>
 					<div className='md:flex flex-col  hidden  w-[80%] text-right'>
-						<p className='text-orange-500 font-medium '>Frontend Engineer</p>
+						<p className='text-orange-500 font-medium '>Bsc. Computer Science</p>
 						<p className=' px-1 py-2 rounded-md '> October 2022-Present</p>
 					</div>
 					<div className='flex  '>
 						<div className='w-12  h-12 -mr-[24px] z-50  bg-orange-500 rounded-full flex justify-center items-center  '>
 							<FaBriefcase className='text-white text-xl' />
 						</div>
-						<hr className='h-[100vh] lg:h-[50vh] w-1 bg-black flex' />
+						<hr className='h-[80vh] lg:h-[35vh] w-1 bg-black flex' />
 					</div>
 					<div className='flex-col ml-6 lg:ml-14 '>
 						<div className='flex flex-col ml-6 ' data-aos='fade-up'>
@@ -94,10 +99,10 @@ const Experience = () => {
 							</h1>
 							<p className='text-orange-500 font-medium md:hidden'>Bsc. Computer Science</p>
 							<p className='bg-orange-100 px-1 py-2 rounded-md md:hidden'>
-								Lagos, Nigeria. November 2023-Present
+								Anambra, Nigeria. November 2023-Present
 							</p>
 							<p className='bg-orange-100 font-medium text-center w-[140px] hidden md:flex'>
-								Anambara, Nigeria
+								Anambra, Nigeria
 							</p>
 
 							<li className='text-orange-500 my-4'>
@@ -129,19 +134,19 @@ const Experience = () => {
 							<div className='w-12  h-12 -mr-[25px] z-50  bg-orange-500 rounded-full flex justify-center items-center  '>
 								<FaBriefcase className='text-white text-xl' />
 							</div>
-							<hr className='h-[60vh] w-1 bg-black flex' />
+							<hr className='h-[40vh] w-1 bg-black flex' />
 						</div>
 						<div className='flex flex-col ml-8 lg:ml-14 ' data-aos='fade-up'>
 							<h1 className='text-xl font-bold flex gap-3'>
 								National Institution of Information and Technology{' '}
 								<FaPaperclip className='rotate-45 mt-1' />{' '}
 							</h1>
-							<p className='text-orange-500 font-medium md:hidden'>Bsc. Computer Science</p>
+							<p className='text-orange-500 font-medium md:hidden'>Frontend Engineer</p>
 							<p className='bg-orange-100 px-1 py-2 rounded-md md:hidden'>
 								Lagos, Nigeria. November 2023-Present
 							</p>
 							<p className='bg-orange-100 font-medium text-center w-[140px] hidden md:flex'>
-								Anambara, Nigeria
+								Lagos, Nigeria
 							</p>
 
 							<li className='text-orange-500 my-4'>
@@ -173,7 +178,9 @@ const Experience = () => {
 
 				<div className=' flex-col justify-start items-center flex  '>
 					<div className='lg:text-center text-left'>
-						<p className='mx-4 text-2xl text-orange-600  text-left font-medium my-10'>Tools & Technologies</p>
+						<p className='mx-4 text-2xl text-orange-600  text-left font-medium my-10'>
+							Tools & Technologies
+						</p>
 					</div>
 					<div className='flex flex-wrap gap-6 px-4 lg:w-[50%]'>
 						<p className='w-[80px] lg:w-[30%] lg:text-lg h-[80px] text-center items-center justify-center flex flex-col rounded-md text-slate-600 bg-slate-200'>
@@ -215,16 +222,16 @@ const Experience = () => {
 							Figma
 						</p>
 						<p className='w-[80px] lg:w-[30%] lg:text-lg h-[80px]  text-center items-center justify-center flex flex-col rounded-md text-slate-600 bg-slate-200'>
-							<FaGithub className='text-2xl text-slate-700' />
-							GitHub
+							<FaSlack className='text-2xl text-red-500' />
+							Slack
 						</p>
 						<p className='w-[80px] lg:w-[30%] lg:text-lg h-[80px]  text-center items-center justify-center flex flex-col rounded-md text-slate-600 bg-slate-200'>
 							<FaNpm className='text-2xl text-slate-700 ' />
 							NPM
 						</p>
 						<p className='w-[80px] lg:w-[30%] lg:text-lg h-[80px]  text-center items-center justify-center flex flex-col rounded-md text-slate-600 bg-slate-200'>
-							<FaGithub className='text-2xl text-slate-700' />
-							GitHub
+							<FaCode className='text-2xl text-slate-700' />
+							VSCode
 						</p>
 					</div>
 				</div>

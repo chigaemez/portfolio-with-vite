@@ -13,11 +13,7 @@ import {
 
 const Project = () => {
 	return (
-		<div
-			id='work'
-			className=' px-4  py-9 bg-slate-600   '
-			
-		>
+		<div id='work' className=' px-4  py-9 bg-slate-600   '>
 			<div className='flex flex-col text-center items-center justify-center '>
 				<h2 className='text-3xl mt-10  text-slate-200 font-bold text-center '>Portfolio</h2>
 				<hr className='w-16 bg-white h-2 rounded-full animate-bounce duration-500 text-center mt-3 ' />
@@ -25,28 +21,33 @@ const Project = () => {
 
 			<div className=' md:mx-1.5 flex flex-col   gap-14 py-10 '>
 				<div className='  flex flex-wrap gap-14    items-center justify-center '>
-					<div className='group relative sm:w-[50%] md:w-[50%] lg:w-[30%]  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-[400ms]'
+				<div
+						className='group  relative sm:w-[50%] md:w-[50%] lg:w-[30%]  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500'
+						data-aos='fade-left'
 					>
 						<img
-							className='h-full wfull rounded-lg object-cover  duration-[400ms] '
+							className='h-full wfull rounded-lg object-cover  duration-500 '
 							src={portfolio}
 							alt=''
 						/>
 
-						<div className='absolute inset-0 flex translate-y-[280px] h-full opacity-0 items-center justify-center flex-col group-hover:opacity-90 duration-500  group-hover:translate-y-[0px] bg-slate-800 rounded-b-lg '>
+						<div className='absolute inset-0 flex translate-y-[280px] h-full opacity-0 items-center justify-center flex-col group-hover:opacity-90 duration-500  group-hover:translate-y-[0px] bg-slate-800 rounded-b-lg'>
 							<h1 className=' text-3xl font-bold text-white text-left'>My Portfolio</h1>
 							<p className='mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
-								React.js Postcss Tailwind css vite
+								React.js Postcss Tailwind  aos  vite
 							</p>
 							<ul className='flex gap-6'>
-								
+							
 								<li className='text-white border-[2px] px-7 py-2'>
 									<a href=''>View Live</a>
 								</li>
 							</ul>
 						</div>
 					</div>
-					<div className='group  relative sm:w-[50%] md:w-[50%] lg:w-[30%]  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500'>
+					<div
+						className='group  relative sm:w-[50%] md:w-[50%] lg:w-[30%]  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500'
+						data-aos='fade-left'
+					>
 						<img
 							className='h-full wfull rounded-lg object-cover  duration-500 '
 							src={optikkal}
@@ -71,7 +72,10 @@ const Project = () => {
 				</div>
 
 				<div className='flex flex-wrap gap-10  items-center justify-center'>
-					<div className='group relative sm:w-[50%] md:w-[50%] lg:w-[30%]   cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500'>
+					<div
+						data-aos='fade-right'
+						className='group relative sm:w-[50%] md:w-[50%] lg:w-[30%]   cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500'
+					>
 						<img
 							className='h-full wfull rounded-lg object-cover  duration-500 '
 							src={shopping}
@@ -93,7 +97,10 @@ const Project = () => {
 							</ul>
 						</div>
 					</div>
-					<div className='group relative sm:w-[50%] md:w-[50%] lg:w-[30%]  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500 '>
+					<div
+						data-aos='fade-left'
+						className='group relative sm:w-[50%] md:w-[50%] lg:w-[30%]  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500 '
+					>
 						<img
 							className='h-full wfull rounded-lg object-cover  duration-500 '
 							src={Screenshot14}
@@ -117,7 +124,7 @@ const Project = () => {
 					</div>
 				</div>
 
-				<div className='flex flex-wrap gap-14  items-center justify-center'>
+				<div data-aos='fade-right' className='flex flex-wrap gap-14  items-center justify-center'>
 					<div className='group relative sm:w-[50%] md:w-[50%] lg:w-[30%]  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500'>
 						<img
 							className='h-full wfull rounded-lg object-cover  duration-500 '
@@ -140,7 +147,10 @@ const Project = () => {
 							</ul>
 						</div>
 					</div>
-					<div className='group relative sm:w-[50%] md:w-[50%] lg:w-[30%]  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500 '>
+					<div
+						data-aos='fade-left'
+						className='group relative sm:w-[50%] md:w-[50%] lg:w-[30%]  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500 '
+					>
 						<img
 							className='h-full wfull rounded-lg object-cover  duration-500 '
 							src={dash}
