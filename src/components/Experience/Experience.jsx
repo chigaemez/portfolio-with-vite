@@ -136,7 +136,7 @@ const Experience = () => {
 							</div>
 							<hr className='h-[40vh] w-1 bg-black flex' />
 						</div>
-						<div className='flex flex-col ml-8 lg:ml-14 ' data-aos='fade-up'>
+						<div className='flex flex-col ml-10 lg:ml-14 ' data-aos='fade-up'>
 							<h1 className='text-xl font-bold flex gap-3'>
 								National Institution of Information and Technology{' '}
 								<FaPaperclip className='rotate-45 mt-1' />{' '}
