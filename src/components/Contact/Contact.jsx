@@ -136,7 +136,7 @@ const Contact = () => {
 							</a>
 						</li>
 						<li className='flex justify-start items-center gap-2 '>
-							<BiMessageAlt className='text-slate-300 text-lg lg:text-lg' />{' '}
+							<BiMessageAlt className='text-slate-100 text-lg lg:text-lg' />{' '}
 							<a
 								className='text-slate-300 text-lg lg:text-lg'
 								href='mailto:christopherorji18@gmail.com'
