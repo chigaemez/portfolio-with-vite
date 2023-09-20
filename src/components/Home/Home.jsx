@@ -15,8 +15,8 @@ const Home = () => {
 			>
 				<div className='space-y-3 text-left  text-white flex flex-col md:items-center  px-6' data-aos='flip-left'>
 					<div className='flex flex-col text-left my-[120px] '>
-						<p className='text-2xl '>Hello,  i'm</p>
-						<h2 className='text-4xl lg:text-6xl my-5 font-bold ' data-aos='flip-left'>
+						<p className='text-3xl  '>Hello,  i'm</p>
+						<h2 className='text-5xl lg:text-6xl my-5 font-bold ' data-aos='flip-left'>
 							ORJI CHRISTOPHER{' '}
 						</h2>
 						<p className='text-2xl my-5'>

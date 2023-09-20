@@ -126,12 +126,12 @@ const Contact = () => {
 						solution that meets your specific requirements. Thank you for your trust!
 					</p>
 					<ul className='my-4 text-lg '>
-						<li className='flex justify-start items-center gap-2 text-slate-300 text-lg lg:text-lg'>
+						<li className='flex justify-start items-center gap-2 text-slate-100 text-lg lg:text-lg'>
 							<FaLocationArrow /> Lagos.Nigeria{' '}
 						</li>
-						<li className='flex justify-start items-center gap-2 py-3 text-slate-300 text-lg lg:text-lg'>
+						<li className='flex justify-start items-center gap-2 py-3 text-slate-100 text-lg lg:text-lg'>
 							<FaPhone />{' '}
-							<a href='tel:+2349122174699' className='text-slate-300 text-lg lg:text-lg'>
+							<a href='tel:+2349122174699' className='text-slate-100 text-lg lg:text-lg'>
 								(+234) <span>9122174699</span>
 							</a>
 						</li>
