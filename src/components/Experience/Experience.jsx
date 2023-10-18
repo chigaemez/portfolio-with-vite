@@ -81,7 +81,7 @@ const Experience = () => {
 					Education
 				</h1>
 
-				<div className='flex px-4 mt-9 justify-center w-[]'>
+				{/* <div className='flex px-4 mt-9 justify-center w-[]'>
 					<div className='md:flex flex-col  hidden  w-[80%] text-right'>
 						<p className='text-orange-500 font-medium '>Bsc. Computer Science</p>
 						<p className=' px-1 py-2 rounded-md '> October 2022-Present</p>
@@ -123,7 +123,7 @@ const Experience = () => {
 							</li>
 						</div>
 					</div>
-				</div>
+				</div> */}
 				<div className='flex px-4  '>
 					<div className='flex   '>
 						<div className='md:flex flex-col  hidden  w-[80%] ml-[-20px]  text-right'>
