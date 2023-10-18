@@ -2,13 +2,14 @@ import React from 'react'
 import Cursor from '../Cursor'
 import Header from '../Header'
 import {
-	Screenshot14,
 	Screenshot3,
 	background,
 	dash,
 	optikkal,
 	portfolio,
 	shopping,
+	video,
+	weather,
 } from '../../assets/image/Index'
 
 const Project = () => {
@@ -103,7 +104,7 @@ const Project = () => {
 					>
 						<img
 							className='h-full wfull rounded-lg object-cover  duration-500 '
-							src={Screenshot14}
+							src={video}
 							alt=''
 						/>
 
@@ -172,7 +173,37 @@ const Project = () => {
 							</ul>
 						</div>
 					</div>
+					
 				</div>
+				<div data-aos='fade-up	' className='flex flex-wrap gap-14  items-center justify-center'>
+				<div
+						data-aos='fade-up'
+						className='group relative sm:w-[50%] md:w-[50%] lg:w-[30%]  cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:scale-[1.1] hover:transition-all hover:duration-500 '
+					>
+						<img
+							className='h-full wfull rounded-lg object-cover  duration-500 '
+							src={weather}
+							alt=''
+						/>
+
+						<div className='absolute inset-0 flex translate-y-[280px] h-full opacity-0 items-center justify-center flex-col group-hover:opacity-90 duration-500  group-hover:translate-y-[0px] bg-slate-800 rounded-b-lg '>
+							<h1 className=' text-3xl font-bold text-white text-left'>Weather App</h1>
+							<p className='mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+								React.js Postcss Tailwind css 
+							</p>
+							<ul className='flex gap-6'>
+								<li className='text-white border-[2px] px-7 py-2 '>
+									<a href='https://github.com/chigaemez'>View on Github</a>
+								</li>
+								<li className='text-white border-[2px] px-7 py-2'>
+									<a href=''>View Live</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+
 			</div>
 		</div>
 	)
