@@ -62,10 +62,10 @@ const Project = () => {
 							</p>
 							<ul className='flex gap-6'>
 								<li className='text-white border-[2px] px-7 py-2 '>
-									<a href='https://github.com/optikkaltech/optikkalwebsite'>View on Github</a>
+									<a href='https://github.com/optikkaltech/optikkalwebsite' target="_blank" rel="noopener noreferrer">View on Github</a>
 								</li>
 								<li className='text-white border-[2px] px-7 py-2'>
-									<a href=''>View Live</a>
+									<a href='https://optikkaltech.com/' target="_blank" rel="noopener noreferrer" >View Live</a>
 								</li>
 							</ul>
 						</div>
@@ -90,7 +90,7 @@ const Project = () => {
 							</p>
 							<ul className='flex gap-6'>
 								<li className='text-white border-[2px] px-7 py-2 '>
-									<a href='https://github.com/chigaemez/React-shopping-cart'>View on Github</a>
+									<a href='https://github.com/chigaemez/React-shopping-cart' target="_blank" rel="noopener noreferrer">View on Github</a>
 								</li>
 								<li className='text-white border-[2px] px-7 py-2'>
 									<a href=''>View Live</a>
@@ -109,16 +109,16 @@ const Project = () => {
 						/>
 
 						<div className='absolute inset-0 flex translate-y-[280px] h-full opacity-0 items-center justify-center flex-col group-hover:opacity-90 duration-500  group-hover:translate-y-[0px] bg-slate-800 rounded-b-lg '>
-							<h1 className=' text-3xl font-bold text-white text-left'>Movie list</h1>
+							<h1 className=' text-3xl font-bold text-white text-left'>Netflix</h1>
 							<p className='mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
 								React.js Postcss Tailwind css Axios
 							</p>
 							<ul className='flex gap-6'>
 								<li className='text-white border-[2px] px-7 py-2 '>
-									<a href='https://github.com/chigaemez/VideoApp'>View on Github</a>
+									<a href='https://github.com/chigaemez/Netflix-clone-app' target="_blank" rel="noopener noreferrer">View on Github</a>
 								</li>
 								<li className='text-white border-[2px] px-7 py-2'>
-									<a href=''>View Live</a>
+									<a href='https://netflix-clone-app-jqyd.onrender.com/' target="_blank" rel="noopener noreferrer">View Live</a>
 								</li>
 							</ul>
 						</div>
@@ -140,7 +140,7 @@ const Project = () => {
 							</p>
 							<ul className='flex gap-6'>
 								<li className='text-white border-[2px] px-7 py-2 '>
-									<a href='https://github.com/chigaemez/Benevolent'>View on Github</a>
+									<a href='https://github.com/chigaemez/Benevolent' target="_blank" rel="noopener noreferrer">View on Github</a>
 								</li>
 								<li className='text-white border-[2px] px-7 py-2'>
 									<a href=''>View Live</a>
@@ -165,10 +165,10 @@ const Project = () => {
 							</p>
 							<ul className='flex gap-6'>
 								<li className='text-white border-[2px] px-7 py-2 '>
-									<a href='https://github.com/chigaemez/DashBoard'>View on Github</a>
+									<a href='https://github.com/chigaemez/DashBoard' target="_blank" rel="noopener noreferrer">View on Github</a>
 								</li>
 								<li className='text-white border-[2px] px-7 py-2'>
-									<a href=''>View Live</a>
+									<a href='https://czar-react-dashboard.netlify.app/' target="_blank" rel="noopener noreferrer">View Live</a>
 								</li>
 							</ul>
 						</div>
@@ -193,10 +193,10 @@ const Project = () => {
 							</p>
 							<ul className='flex gap-6'>
 								<li className='text-white border-[2px] px-7 py-2 '>
-									<a href='https://github.com/chigaemez'>View on Github</a>
+									<a href='https://github.com/chigaemez/React-weather-app' target="_blank" rel="noopener noreferrer">View on Github</a>
 								</li>
 								<li className='text-white border-[2px] px-7 py-2'>
-									<a href=''>View Live</a>
+									<a href='https://czar-weather-app.onrender.com/' target="_blank" rel="noopener noreferrer">View Live</a>
 								</li>
 							</ul>
 						</div>
