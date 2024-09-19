@@ -18,8 +18,7 @@ const Page = () => {
         <Project />
         <Experience />
         
-        {/* <Contact /> */}
-        {/* <Footer/> */}
+        <Contact />
     </div>
   )
 }

@@ -1,26 +1,27 @@
 import React from 'react'
-import Cursor from '../Cursor'
-import Header from '../Header'
 import { PROJECT } from '../../constants'
-import {
-	Screenshot3,
-	background,
-	dash,
-	optikkal,
-	portfolio,
-	shopping,
-	video,
-	weather,
-} from '../../assets/image/Index'
+import { motion } from 'framer-motion'
 
 const Project = () => {
 	return (
 		<div className='pb-4'>
-			<h2 className='my-20 text-center text-4xl'>Projects</h2>
+			<motion.h2
+				whileInView={{ opacity: 1, y: 0 }}
+				initial={{ opacity: 0, y: -100 }}
+				transition={{ duration: 0.5 }}
+				className='my-20 text-center text-4xl'
+			>
+				Projects
+			</motion.h2>
 			<div>
 				{PROJECT.map((projects, index) => (
 					<div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
-						<div className='w-full lg:w-[25%]'>
+						<motion.div
+							whileInView={{ opacity: 1, x: 0 }}
+							initial={{ opacity: 0, x: -100 }}
+							transition={{ duration: 1 }}
+							className='w-full lg:w-[25%]'
+						>
 							<img
 								src={projects.image}
 								alt={projects.title}
@@ -28,8 +29,13 @@ const Project = () => {
 								height={250}
 								className='mb-6 rounded'
 							/>
-						</div>
-						<div className='w-full max-w-xl lg:w-[75%]'>
+						</motion.div>
+						<motion.div
+							whileInView={{ opacity: 1, x: 0 }}
+							initial={{ opacity: 0, x: 100 }}
+							transition={{duration: 1}}
+							className='w-full max-w-xl lg:w-[75%]'
+						>
 							<h3 className='mb-2 font-semibold text-2xl'>{projects.title}</h3>
 							<p className='mb-4 text-stone-400 '>{projects.description}</p>
 							{projects.technologies.map((tech, index) => (
@@ -37,7 +43,7 @@ const Project = () => {
 									{tech}
 								</span>
 							))}
-						</div>
+						</motion.div>
 					</div>
 				))}
 			</div>
