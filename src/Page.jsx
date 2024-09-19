@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from './components/Home/Home'
+import {Home} from './components/Home/Home'
 import About from './components/About/About'
 import Project from './components/Projects/Project'
 import Experience from './components/Experience/Experience'
@@ -13,13 +13,13 @@ const Page = () => {
     <div>
         <Header/>
         <Cursor/>
-        <Home />
+        <Home/>
         <About />
-        <Experience />
         <Project />
+        <Experience />
         
-        <Contact />
-        <Footer/>
+        {/* <Contact /> */}
+        {/* <Footer/> */}
     </div>
   )
 }
