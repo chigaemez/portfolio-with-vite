@@ -1,40 +1,43 @@
 {
-  "name": "chris-portfolio",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "start": "vite"
-  },
-  "dependencies": {
-    "@emailjs/browser": "^3.11.0",
-    "@headlessui/react": "^1.7.13",
-    "animate.css": "^4.1.1",
-    "aos": "^2.3.4",
-    "formik": "^2.4.4",
-    "framer-motion": "^11.5.4",
-    "react": "^18.2.0",
-    "react-animated-cursor": "^2.7.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1",
-    "react-particles": "^2.10.1",
-    "react-router-dom": "^6.11.1",
-    "react-scroll": "^1.8.9",
-    "react-swipe": "^6.0.4",
-    "react-typed": "^1.2.0",
-    "swipe-js-iso": "^2.1.5"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.26",
-    "@types/react-dom": "^18.0.9",
-    "@vitejs/plugin-react": "^3.0.0",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.4",
-    "vite": "^4.4.9"
-  },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+	"overrides": {
+		"react-typed": {
+			"react": "^18.2.0"
+		}
+	},
+	"name": "chris-portfolio",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"start": "vite"
+	},
+	"dependencies": {
+		"@emailjs/browser": "^3.11.0",
+		"@headlessui/react": "^1.7.13",
+		"animate.css": "^4.1.1",
+		"aos": "^2.3.4",
+		"formik": "^2.4.4",
+		"framer-motion": "^11.5.4",
+		"react": "^18.2.0",
+		"react-animated-cursor": "^2.7.0",
+		"react-dom": "^18.2.0",
+		"react-icons": "^4.7.1",
+		"react-router-dom": "^6.11.1",
+		"react-scroll": "^1.8.9",
+		"react-swipe": "^6.0.4",
+		"swipe-js-iso": "^2.1.5"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.26",
+		"@types/react-dom": "^18.0.9",
+		"@vitejs/plugin-react": "^3.0.0",
+		"autoprefixer": "^10.4.14",
+		"postcss": "^8.4.21",
+		"tailwindcss": "^3.2.4",
+		"vite": "^4.4.9"
+	},
+	"packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
