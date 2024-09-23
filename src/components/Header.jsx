@@ -1,15 +1,15 @@
 import React from 'react'
-import { logo } from '../assets/image/Index'
-import { facebook, github, linkedin, twitter } from '../assets/icons'
 import { FaGithub, FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 
 const Header = () => {
+	
 	return (
 		<div className='flex items-center justify-between py-6 z-40'>
 			<div className='flex flex-shrink-0 items-center'>
-				<a href='/' aria-label='Home'>
-					<img src={logo} alt='' className='mx-2 grayscale	' width={50} height={22} />
+				<a href='/' aria-label='Home' className="text-4xl font-bold relative">
+					OC
+					<hr className="w-6 h-1 bg-stone-300 absolute top-[17px] rounded  left-[15px]"/>
 				</a>
 			</div>
 			<div className=' flex items-center justify-center gap-10 text-2xl'>
@@ -35,6 +35,7 @@ const Header = () => {
 						</a>
 					</li>
 				</ul>
+				
 			</div>
 		</div>
 	)
