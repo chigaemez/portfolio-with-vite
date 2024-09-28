@@ -30,8 +30,8 @@ export const Home = () => {
 							src={Prof}
 							alt=''
 							className=' border border-stone-900 rounded-3xl'
-							width={650}
-							height={650}
+							width={550}
+							height={350}
 							initial={{ x: 100, opacity: 0 }}
 							animate={{ x: 0, opacity: 1 }}
 							transition={{ duration: 1, delay: 1.5 }}

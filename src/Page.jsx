@@ -7,6 +7,7 @@ import Contact from './components/Contact/Contact'
 import Header from './components/Header'
 import Cursor from './components/Cursor'
 import Footer from './components/Footer'
+import Education from './components/Education/Education'
 
 const Page = () => {
   return (
@@ -15,6 +16,7 @@ const Page = () => {
         <Cursor/>
         <Home/>
         <About />
+        <Education/>
         <Project />
         <Experience />
         

@@ -1,7 +1,7 @@
 import React from 'react'
 import { RiReactjsLine, RiJavascriptLine } from 'react-icons/ri'
 import { TbBrandTypescript } from 'react-icons/tb'
-import { FaNodeJs } from 'react-icons/fa6'
+import { FaJava, FaNodeJs } from 'react-icons/fa6'
 import { animate, motion } from 'framer-motion'
 
 const IconVariants = (duration) => ({
@@ -73,6 +73,16 @@ const About = () => {
 					<FaNodeJs className='text-7xl text-green-600' />
 
 				</motion.div>
+				<motion.div 
+					initial='initial' 
+					animate='animate' 
+					variants={IconVariants(3)} 
+					className='p-4'
+					>
+					<FaJava className='text-7xl text-blue-600' />
+
+				</motion.div>
+				
 			</motion.div>
 		</div>
 	)
