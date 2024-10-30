@@ -30,8 +30,8 @@ const Education = () => {
 							transition={{duration: 1}}
 							className='w-full max-w-xl lg:w-[75%]'
 						>
-							<h3 className='mb-2 font-semibold'>
-								{edu.name} - <span className='text-sm text-stone-500 '>{edu.certificate}</span>
+							<h3 className='mb-2 flex flex-col font-semibold'>
+								{edu.name}z <span className='text-sm text-stone-500 '>{edu.certificate}</span>
 							</h3>
 							{edu.skills.map((tech, index) => (
 								<span
@@ -40,7 +40,7 @@ const Education = () => {
 								>
 									{tech}
 								</span>
-							))}
+							))}z
 						</motion.div>
 					</div>
 				))}

@@ -7,7 +7,14 @@ export const HERO_CONTENT = `I am a passionate frontend developer with a knack f
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "2024 - Present",
+    role: "Frontend Developer",
+    company: "KDN PLUS",
+    description: `Designed and developed KDN news Network interfaces for web applications using React. Worked closely with backend developers to integrate frontend components with Database. Implemented responsive designs and optimized frontend performance.`,
+    technologies: ["HTML", "CSS", "Javascript",  "React"],
+  },
+  {
+    year: "2024 - 2024",
     role: "Frontend Developer",
     company: "Fixxers",
     description: `Designed and developed user interfaces for web applications using React. Worked closely with backend developers to integrate frontend components with Database. Implemented responsive designs and optimized frontend performance.`,
@@ -23,7 +30,7 @@ export const EXPERIENCES = [
 
   {
     year: "2021 - 2022",
-    role: "Senior Full Stack Developer",
+    role: "Frontend  Developer",
     company: "Smart ace Software Solution.",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "React.js",],
@@ -36,7 +43,7 @@ export const EDUCATION = [
   {
     year: "2021 - 2023",
     certificate: "Web Development",
-    name: "National Institute of Technology and Technology",
+    name: "National Institute of Technology and Technology-(N.I.I.T)",
     skills: ["HTML", "CSS", "Javascript", "React.js", "Java", "Hibernate", "Springs", "SQL"],
   }
 
