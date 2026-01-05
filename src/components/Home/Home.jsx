@@ -1,5 +1,5 @@
 import React from 'react'
-import { Prof } from '../../assets/image/Index'
+import { Prof1 } from '../../assets/image/Index'
 import { HERO_CONTENT } from '../../constants'
 import { motion, stagger } from 'framer-motion'
 
@@ -27,7 +27,7 @@ export const Home = () => {
 				<div className='w-full lg:w-[50%]'>
 					<div className='flex items-center justify-center lg:p-8'>
 						<motion.img
-							src={Prof}
+							src={Prof1}
 							alt=''
 							className=' border border-stone-900 rounded-3xl'
 							width={550}
